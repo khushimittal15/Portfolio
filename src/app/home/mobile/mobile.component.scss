@@ -1,0 +1,105 @@
+.body {
+    height: 100%;
+    width: 26vw;
+    position: relative;
+    padding: 0 1.5vw;
+    box-sizing: border-box;
+}
+
+.screen {
+    height: 78vh;
+    width: 23vw;
+    border: 1px solid #808080;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 5vh 2.5vw;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-name {
+    color: #F2F2F2;
+    font-family: grotesk;
+    font-size: 5.5vh;
+    vertical-align: middle;
+}
+
+.title-role {
+    font-family: grotesk;
+    display: flex;
+    color: #F2F2F2;
+    font-size: small;
+    word-wrap: break-word;
+}
+
+.dp {
+    margin-top: 1vh;
+    border-radius: 25px;
+    width: 18vw;
+}
+
+.info {
+    font-family: grotesk;
+    font-size: 2.7vh;
+    color: #F2F2F2;
+    padding: 2.5vh 0;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 100%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.social-icon {
+    border: 1px solid #808080;
+    border-radius: 25px;
+    font-size: 2.7vh;
+    color: #808080;
+    padding: 1vh;
+    margin: 0 1vh;
+    text-decoration: none;
+}
+
+.hire {
+    display: flex;
+    margin-top: 4vh;
+    background-color: #4FC978;
+    text-align: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    border-radius: 25px;
+    height: 5vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hire-icon {
+    margin-top: auto; 
+    margin-bottom: auto;
+    font-size: 2.7vh;
+    color: black;
+}
+
+.hire-text {
+    margin-top: auto; 
+    margin-bottom: auto; 
+    font-weight: 600;
+    font-size: 2.2vh;
+    padding-bottom: 0.8vh;
+    color: black;
+}
+

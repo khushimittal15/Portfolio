@@ -1,0 +1,30 @@
+@import '~boxicons/css/boxicons.min.css';
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'grotesk';
+    src: url('../src/assets/grotesk.ttf');
+}
+
+::-webkit-scrollbar {
+    width: 0.2vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #808080; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4FC978; 
+    width: 0.5vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}

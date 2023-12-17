@@ -1,0 +1,26 @@
+<div class="body" [ngClass]="innerWidth<innerHeight? 'wide':''">
+    <div class="content" *ngIf="innerWidth>=innerHeight">
+        <app-introduction id="introduction"></app-introduction>
+        <app-about id="about"></app-about>
+        <app-resume id="resume"></app-resume>
+        <app-skills id="skills"></app-skills>
+        <app-contact id="contact"></app-contact>
+    </div>
+    <div class="phone-content" *ngIf="innerWidth<innerHeight">
+        <app-phone-introduction id="introduction"></app-phone-introduction>
+        <app-phone-about id="about"></app-phone-about>
+        <app-phone-resume id="resume"></app-phone-resume>
+        <app-phone-skills id="skills"></app-phone-skills>
+        <app-phone-contact id="contact"></app-phone-contact>
+    </div>
+    <div *ngIf="innerWidth>=innerHeight" class="navigation-bar">
+        <!-- <div class="bx bx-menu menu"></div> -->
+        <div class="navigation-icons">
+            <a class="bx bx-home icon" [ngClass]="inView == 'introduction'? 'inView':''" (click)="onClickScroll('introduction')"></a>
+            <a class="bx bx-user icon" [ngClass]="inView == 'about'? 'inView':''" (click)="onClickScroll('about')"></a>
+            <a class="bx bx-briefcase icon" [ngClass]="inView == 'resume'? 'inView':''" (click)="onClickScroll('resume')"></a>
+            <a class="bx bxs-shapes icon" [ngClass]="inView == 'skills'? 'inView':''" (click)="onClickScroll('skills')"></a>
+            <a class="bx bx-envelope icon" [ngClass]="inView == 'contact'? 'inView':''" (click)="onClickScroll('contact')"></a>
+        </div>
+    </div>
+</div>

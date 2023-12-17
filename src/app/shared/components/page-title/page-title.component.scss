@@ -1,0 +1,24 @@
+.tile {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #808080;
+    color: #CCCCCC;
+    font-family: grotesk;
+    border-radius: 25px;
+    height: 1.9vw;
+    width: min-content;
+    padding: 0 0.8vw;
+    box-sizing: border-box;
+    font-size: 0.8vw;
+}
+
+.icon {
+    margin: auto;
+    font-size: 0.8vw;
+}
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.2vw;
+}
