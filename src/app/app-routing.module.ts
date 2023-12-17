@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {path: '', component: AppComponent ,pathMatch: 'full' ,title: 'Sagar Maheshwari'}
+  {path: '', component: AppComponent ,pathMatch: 'full' ,title: 'Khushi Mittal'}
 ];
 
 @NgModule({
